@@ -6,9 +6,9 @@ import Footer from "./components/Footer";
 import SingleMovie from "./components/SingleMovie";
 function App() {
   return (
-    <div className="App">
+    <div className="App  bg-gray-200">
       <Header />
-      <div className="h-screen bg-[rgb(36,36,36)]">
+      <div className="h-full ">
         <Routes>
           <Route path="/" element={<NowPlaying />} />
           <Route path="/movie/:id" element={<SingleMovie />} />

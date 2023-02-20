@@ -25,7 +25,7 @@ function classNames(...classes) {
 }
 const index = () => {
   return (
-    <Disclosure as="header" className="bg-gray-800">
+    <Disclosure as="header" className="bg-gray-800 top-0 sticky w-full">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:divide-y lg:divide-gray-700 lg:px-8">
